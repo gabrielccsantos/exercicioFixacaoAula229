@@ -1,8 +1,7 @@
-package entities;
+package model.entities;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
-import java.util.IntSummaryStatistics;
 import java.util.List;
 
 public class Contract {
