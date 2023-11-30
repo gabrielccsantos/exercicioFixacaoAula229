@@ -48,4 +48,8 @@ public class Contract {
     public void removeInstallment(Installment installment){
         installmentList.remove(installment);
     }
+
+    public List<Installment> getInstallment(){
+        return installmentList;
+    }
 }
