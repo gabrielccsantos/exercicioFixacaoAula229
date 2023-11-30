@@ -2,6 +2,7 @@ package entities;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
+import java.util.IntSummaryStatistics;
 import java.util.List;
 
 public class Contract {
@@ -39,5 +40,13 @@ public class Contract {
 
     public void setTotalValue(Double totalValue) {
         this.totalValue = totalValue;
+    }
+
+    public void addInstallment(Installment installment){
+        installmentList.add(installment);
+    }
+
+    public void removeInstallment(Installment installment){
+        installmentList.remove(installment);
     }
 }
